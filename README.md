@@ -1,19 +1,11 @@
 # edk2-motog
-UEFI port for Motorola Moto G Power, Moto G Stylus, Moto G Pro, Moto G Power, Moto G8, and Moto G Fast
+UEFI port for Motorola One Action and Motorola One Vision
 
 ## Supported Devices (WIP)
 
-Motorola G Power = sofia
+Motorola One Vision = kane
 
-Motorola G Stylus = sofiap
-
-Motorola G Pro = sofiap_ao
-
-Motorola G8 Power = sofiar
-
-Motorola G8 = rav
-
-Motorola G Fast = rav_t
+Motorola One Action = troika
 
 ## Building
 
@@ -35,13 +27,13 @@ git clone https://github.com/tianocore/edk2.git --recursive
 
 git clone https://github.com/tianocore/edk2-platforms.git
 
-git clone https://github.com/AndroidDevice-Porting/edk2-motog.git
+git clone https://github.com/Vicc2008/edk2-troikane.git
 
 cd edk2 && make -C Basetools/
 
 source edksetup.sh
 
-cd ../edk2-motog
+cd ../edk2-troikane
 
 chmod +x build.sh
 
@@ -56,24 +48,20 @@ More than likely not working. There might be some messed up memory maps, Maybe s
 ## Device specs?
 
 __All Phone Models__
-> SoC = Qualcomm Snapdragon 665
+> SoC = Exynos 9609
 > 
 > RAM = 4GB
 
-## Device Specifics?
-
-**Looking at some of the other device specs online, the storage size differs. But the storage type seems the same. Some also have the Android 11 update, while some don't. Lastly, the screen resolution on the Moto G8 is 720x1560. So keep these in mind when you are trying to use this / help with it.**
-
 ## Device Picture
 
-<img src="https://images-na.ssl-images-amazon.com/images/I/61XOOWH7pCL._AC_SL1000_.jpg" width="425" height="500" />
+<img src="http://www.karlosperu.com/wp-content/uploads/2019/08/67731049_478919109607838_6474888113272389632_n.jpg" width="960" height="574" />
 
 Basic   | Spec Sheet
 -------:|:--------------------------------------------------------------------
-CPU     | Qualcomm Snapdragon 665
+CPU     | Exynos 9609
 Memory  | 4GB
-Shipped OS | Android 10 Q
-Storage | 128GB / 64GB
+Shipped OS | Android 9 pie
+Storage | 128GB
 Battery | 4000 mAh / 5000 mAh
-Display | 6.4" 1080x2300 pixels / 6.4" 720x1560 pixels
-Camera  | Triple 48MP+16MP+2MP / Triple 16MP+8MP+2MP / Quad 16MP+8MP+8MP+2MP
+Display | 6.3" 1080x2520 pixels / 6.3" 1080x2520 pixels
+Camera  | Triple 12MP+16MP+5MP / Dual 48MP+5MP
