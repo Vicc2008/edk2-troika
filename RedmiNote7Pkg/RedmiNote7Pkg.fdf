@@ -172,6 +172,12 @@ READ_LOCK_STATUS   = TRUE
       SECTION UI = "ClockDxe"
     }
 
+    FILE DRIVER = A25F5839-4D55-428F-8F0B-5CE1D565F53E {
+      SECTION DXE_DEPEX = RedmiNote7Pkg/Binary/VerifiedBootDxe/ClockDxe.depex
+      SECTION PE32 = RedmiNote7Pkg/Binary/VerifiedBootDxe/ClockDxe.efi
+      SECTION UI = "ClockDxe"
+    }
+
     INF MdeModulePkg/Universal/Disk/DiskIoDxe/DiskIoDxe.inf
     INF MdeModulePkg/Universal/Disk/PartitionDxe/PartitionDxe.inf
 
