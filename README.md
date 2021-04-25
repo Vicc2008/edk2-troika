@@ -54,7 +54,7 @@ __All Phone Models__
 
 ## Device Picture
 
-<img src="http://www.karlosperu.com/wp-content/uploads/2019/08/67731049_478919109607838_6474888113272389632_n.jpg" width="960" height="574" />
+<img src="https://www.movilzona.es/app/uploads/2019/10/Motorola-One-Vision-vs-Motorola-One-Action.png" width="1268" height="664" />
 
 Basic   | Spec Sheet
 -------:|:--------------------------------------------------------------------
