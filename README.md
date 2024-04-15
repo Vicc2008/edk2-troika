@@ -1,5 +1,5 @@
-# edk2-motog
-UEFI port for Motorola One Action and Motorola One Vision
+# EDK2 UEFI for Motorola One Action/Vision
+UEFI port for Motorola One Action/Vision
 
 ## Supported Devices (WIP)
 
@@ -43,7 +43,8 @@ bash build.sh
 
 ## Status
 
-More than likely not working. There might be some messed up memory maps, Maybe something else is messed up? But definately not ready. It is only public __in case someone can help us work on it.__ From what I have heard, devices with a Qualcomm Snapdragon 665 processor are supposedly impossible to use EDK2, but from my 18 years of hearing things are "impossible," that is dumb. I mean, people said things like portable electronics (phones, etc.) and some types of aircraft would be impossible, but here we are today. So lesson is, nothing is impossible.
+Not Booting
+
 
 ## Device specs?
 
@@ -62,6 +63,6 @@ CPU     | Exynos 9609
 Memory  | 4GB
 Shipped OS | Android 9 pie
 Storage | 128GB
-Battery | 4000 mAh / 5000 mAh
-Display | 6.3" 1080x2520 pixels / 6.3" 1080x2520 pixels
+Battery | 3500 mAh
+Display | 6.3" 1080x2520 pixels
 Camera  | Triple 12MP+16MP+5MP / Dual 48MP+5MP
