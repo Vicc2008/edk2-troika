@@ -27,7 +27,7 @@ git clone https://github.com/tianocore/edk2.git --recursive
 
 git clone https://github.com/tianocore/edk2-platforms.git
 
-git clone https://github.com/Vicc2008/edk2-troika.git
+git clone https://github.com/vicenteicc2008/edk2-troika.git
 
 cd edk2 && make -C Basetools/
 
