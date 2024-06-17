@@ -15,7 +15,7 @@ sudo apt update
 
 sudo apt upgrade
 
-sudo apt install build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu abootimg python3-distutils python3-pil python3-git
+sudo apt install build-essential uuid-dev iasl git nasm gcc-aarch64-linux-gnu python3-distutils python3-pil python3-git
 
 mkdir edk2-porting
 
