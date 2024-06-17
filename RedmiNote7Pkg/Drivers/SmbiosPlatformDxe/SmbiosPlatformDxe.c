@@ -32,14 +32,14 @@
   __DATE__"\0"                         /* BiosReleaseDate */
 
 #define TYPE1_STRINGS                                   \
-  "Xiaomi\0"                         /* Manufacturer */ \
-  "Redmi Note 7\0"                           /* Product Name */ \
+  "Motorola Mobility Inc\0"                         /* Manufacturer */ \
+  "Motorola One Action\0"                           /* Product Name */ \
   "None\0"                           /* Version */      \
   "                    \0"           /* 20 character buffer */
 
 #define TYPE2_STRINGS                                     \
-  "Xiaomi\0"                         /* Manufacturer */   \
-  "Redmi Note 7\0"                           /* Product Name */   \
+  "Motorola Mobility Inc\0"                         /* Manufacturer */   \
+  "Motorola One Action\0"                           /* Product Name */   \
   "R0\0"                             /* Version */        \
   "Serial Not Set\0"                 /* Serial */         \
   "Base of Chassis\0"                /* board location */ \
